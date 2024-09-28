@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_erp__pedido_itens
+    description: Tabela de preparação dos dados brutos da funcionários.
+    columns:
+      - name: pk_pedido_item
+        description: blablabla.
+        data_tests:
+          - unique
+          - not_null           
+        
