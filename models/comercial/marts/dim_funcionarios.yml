@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: dim_funcionarios
+    description: Tabela de intermediário para designar o gerente do funcionário.
+    columns:
+      - name: PK_FUNCIONARIO
+        description: blablabla.
+              
+      - name: FK_GERENTE
+        description: blablabla.
+        
+      - name: NOME_FUNCIONARIO
+        description: blablabla.
+      
+      - name: NOME_GERENTE
+        description: blablabla.
+        
+      - name: CARGO_FUNCIONARIO
+        description: blablabla.
+        
+      - name: DT_NASCIMENTO_FUNCIONARIO
+        description: blablabla.
+        
+      - name: DT_CONTRATACAO
+        description: blablabla.
+        
+      - name: CIDADE_FUNCIONARIO
+        description: blablabla.
+        
+      - name: REGIAO_FUNCIONARIO
+        description: blablabla.
+        
+      - name: PAIS_FUNCIONARIO
+        description: blablabla.
+        
