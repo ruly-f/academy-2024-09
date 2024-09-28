@@ -1,7 +1,7 @@
 with
     int_funcionarios as (
         select *
-        from {{ ref('int_funcionarios_preparacao') }}
+        from {{ ref('int_produtos_enriquecida') }}
     )
 
 select *
