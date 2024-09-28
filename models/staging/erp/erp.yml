@@ -12,4 +12,8 @@ sources:
           - name: id
             data_tests:
               - unique
-              - not_null        
+              - not_null  
+
+      - name: product
+      - name: category      
+      - name: supplier  
