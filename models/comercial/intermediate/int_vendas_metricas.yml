@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_vendas_metricas
+    description: Tabela de intermediário com as métricas de venda da Northwind.
+    columns:
+      - name: pk_pedido_item
+        description: blablabla.
+        data_tests:
+          - unique
+          - not_null

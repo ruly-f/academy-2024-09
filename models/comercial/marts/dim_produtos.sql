@@ -1,8 +1,8 @@
 with
-    int_funcionarios as (
+    int_produtos as (
         select *
         from {{ ref('int_produtos_enriquecida') }}
     )
 
 select *
-from int_funcionarios
+from int_produtos
