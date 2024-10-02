@@ -5,7 +5,7 @@ models:
     description: Tabela de preparação dos dados brutos da funcionários.
     columns:
       - name: pk_pedido_item
-        description: blablabla.
+        description: Chave primária da tabela pedido itens.
         data_tests:
           - unique
           - not_null           
