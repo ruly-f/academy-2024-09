@@ -5,29 +5,29 @@ models:
     description: Tabela de preparação dos dados brutos da funcionários.
     columns:
       - name: PK_FUNCIONARIO
-        description: blablabla.
+        description: Chave primária da tabela.
         
       - name: FK_GERENTE
-        description: blablabla.
+        description: Chave que identifica o gerente do funcionário.
         
       - name: NOME_FUNCIONARIO
-        description: blablabla.
+        description: Nome do funcionário.
         
       - name: CARGO_FUNCIONARIO
-        description: blablabla.
+        description: Cargo do funcionário.
         
       - name: DT_NASCIMENTO_FUNCIONARIO
-        description: blablabla.
+        description: Data de nascimento do funcionário.
         
       - name: DT_CONTRATACAO
-        description: blablabla.
+        description: Data de contratação do funcionário.
         
       - name: CIDADE_FUNCIONARIO
-        description: blablabla.
+        description: Cidade onde mora o funcionário.
         
       - name: REGIAO_FUNCIONARIO
-        description: blablabla.
+        description: Região onde mora o funcionário.
         
       - name: PAIS_FUNCIONARIO
-        description: blablabla.
+        description: País onde mora o funcionário.
         

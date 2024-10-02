@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: dim_produtos
+    description: >
+      Tabela dimensão dos produtos da Northwind. Tem categorização
+      para produtos descontinuados na coluna is_discontinuado.
+    columns:
+      - name: PK_PRODUTO
+        description: Chave primária da dimensão de produtos.
+        tests:
+          - unique
+          - not_null
+              
+      - name: NM_PRODUTO
+        description: Nome do produto.
+        tests:
+          - not_null
+      
+      - name: NOME_CATEGORIA
+        description: Nome da categoria de produto.
+        tests:
+          - not_null:
+              config:
+                severity: warn
+
+      - name: QUANTIDADE_POR_UNIDADE
+        description: Quantidade por unidade do produto.
+
+      - name: PRECO_POR_UNIDADE
+        description: Preço da unidade.
+
+      - name: UNIDADE_EM_ESTOQUE
+        description: Quantidade em estoque.
+
+      - name: UNIDADE_POR_PEDIDO
+        description: Unidades que estão em pedido.
+
+      - name: NIVEL_DE_PEDIDO
+        description: Nivel de estoque para um um novo pedido ser feito.
+
+      - name: IS_DISCONTINUADO
+        description: Flag que indica se o produto ainda é comercializado.
